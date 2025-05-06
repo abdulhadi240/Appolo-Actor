@@ -5,7 +5,7 @@ await Actor.init();
 
 try {
     const input = await Actor.getInput();
-    const { records, apolloUrl } = input;
+    const { records, apolloUrl , file_name } = input;
 
     if (typeof records !== 'number' || !apolloUrl) {
         throw new Error('Invalid input: both "records" (number) and "apolloUrl" (string) are required');
@@ -20,7 +20,7 @@ try {
     }
 
     const response = await got.post(N8N_WEBHOOK, {
-        json: { records, apolloUrl },
+        json: { records, apolloUrl , file_name },
         responseType: 'json',
         timeout: { request: 60_000 },
     });
