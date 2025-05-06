@@ -1,0 +1,23 @@
+{
+    "title": "Apollo Scraper Input",
+    "description": "Specify how many records to fetch and the Apollo URL to scrape.",
+    "type": "object",
+    "properties": {
+      "records": {
+        "type": "integer",
+        "title": "Number of Records",
+        "description": "How many records should the actor fetch?",
+        "default": 10,
+        "minimum": 1
+      },
+      "apolloUrl": {
+        "type": "string",
+        "title": "Apollo URL",
+        "description": "Paste the full Apollo GraphQL endpoint URL you want to scrape.",
+        "default": "https://example.com/graphql",
+        "format": "uri"
+      }
+    },
+    "required": ["records", "apolloUrl"]
+  }
+  
