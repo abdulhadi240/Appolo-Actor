@@ -1,4 +1,6 @@
 {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "schemaVersion": "1",
     "title": "Apollo Scraper Input",
     "description": "Specify how many records to fetch and the Apollo URL to scrape.",
     "type": "object",
