@@ -14,7 +14,7 @@ try {
     log.info('Sending payload to n8n webhook…', { records, apolloUrl });
 
     // Replace with your real n8n webhook URL
-    const N8N_WEBHOOK = 'https://leadassist.chitlangia.co/webhook/f27a2349-b597-4040-8ece-b93dd04b8b32';
+    const N8N_WEBHOOK = 'https://leadassist.chitlangia.co/webhook-test/f27a2349-b597-4040-8ece-b93dd04b8b32';
     if (!N8N_WEBHOOK) {
         throw new Error('N8N_WEBHOOK_URL environment variable is not set');
     }
