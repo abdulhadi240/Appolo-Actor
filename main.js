@@ -22,7 +22,7 @@ try {
     const response = await got.post(N8N_WEBHOOK, {
         json: { records, apolloUrl , file_name },
         responseType: 'json',
-        timeout: { request: 60_000 },
+        timeout: { request: 60_0000 },
     });
 
     const driveLink = response.body.driveLink;
