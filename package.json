@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "dependencies": {
     "apify": "^3.4.0",
     "got": "^14.4.7"
