@@ -1,5 +1,8 @@
 {
   "type": "module",
+  "scripts": {
+  "start": "node main.js"
+},
   "dependencies": {
     "apify": "^3.4.0",
     "got": "^14.4.7"
