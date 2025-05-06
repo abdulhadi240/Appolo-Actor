@@ -16,6 +16,7 @@
       "file_name": {
         "type": "string",
         "title": "Name your result file ",
+        "description": "The name of the file that should be recieved as output",
         "default": "My Afity Data",
         "editor": "textfield"
       },
