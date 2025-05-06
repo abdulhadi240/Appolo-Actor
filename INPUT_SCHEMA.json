@@ -11,20 +11,20 @@
         "description": "How many records should the actor fetch?",
         "default": 10,
         "minimum": 1,
-        "editor": "number"
+        "editor": "number"  
       },
       "file_name": {
         "type": "string",
         "title": "Name your result file ",
         "description": "The name of the file that should be recieved as output",
-        "default": "My Afity Data",
+        "default": "My Apify Data",
         "editor": "textfield"
       },
       "apolloUrl": {
         "type": "string",
         "title": "Apollo URL",
         "description": "Please share the complete Apollo search URL with filters",
-        "default": "https://example.com/graphql",
+        "prefill": "https://app.apollo.io/#/people?page=1&contactEmailExcludeCatchAll=true&sortAscending=false&sortByField=recommendations_score",
         "editor": "textfield"
       }
     },
