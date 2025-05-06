@@ -16,8 +16,7 @@
         "type": "string",
         "title": "Apollo URL",
         "description": "Paste the full Apollo GraphQL endpoint URL you want to scrape.",
-        "default": "https://example.com/graphql",
-        "format": "uri"
+        "default": "https://example.com/graphql"
       }
     },
     "required": ["records", "apolloUrl"]
